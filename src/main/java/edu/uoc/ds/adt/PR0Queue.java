@@ -26,7 +26,7 @@ public class PR0Queue {
 
     public String clearFullQueue() {
         StringBuilder sb = new StringBuilder();
-        char r;
+        int r;
         while (!queue.isEmpty()) {
             sb.append(queue.poll()).append(" ");
         }
