@@ -10,7 +10,7 @@ public class PR0Array {
     }
 
     public int getIndexOf(int search) {
-        for (int i = 0; i < 49; i++) {
+        for (int i = 0; i <= 49; i++) {
             if (myArray[i] == search) return i;
         }
         return -1;
